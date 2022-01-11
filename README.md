@@ -13,5 +13,14 @@ An example of the adopted concept ontology for fashion recognition, where i show
 
 
 ## Introduction
+The natural concept ontology structure of clothes has enabled easy management of large quantities of fashion images for online retailers and it is meaningful to study how to automatically recognize fashion images for both commercial promotion and academic research.
 
-**Hierarchy based model enhancement method** 本方法针对数据类间相关性分布不均匀问题，从结构增强的角度出发，研究了一种新的基于层次结构的深度模型增强方法。首先，讨论了大规模图像数据有效识别所面临的挑战。其次，构建了一棵概念本体树，并设计了一个层次多任务分类器显式地嵌入概念本体树进行训练。最后，探索了一种层次知识蒸馏方法以提升层次模型的视觉识别性能。
+In this project, a new hierarchical approach is developed for large-scale fashion recognition. It mainly contains two steps:
+* We first embed concept ontology into deep convolutional neural network (CNN) by adopting multiple deep CNN branches to learn node-specific features and classifiers explicitly.
+
+* Then, we introduce a hierarchical knowledge distillation method to further improve the performance of fashion recognition. 
+
+Finally, we employ the proposed approach on the public DeepFashion dataset.
+
+### Tips
+If there is any copyright issue, please contact 592332380@qq.com.
